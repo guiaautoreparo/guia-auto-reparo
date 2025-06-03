@@ -1,14 +1,14 @@
 import React from 'react';
-import '../assets/styles/global.css';
-import Header from './layout/Header';
-import Footer from './layout/Footer';
-import HeroSection from './sections/HeroSection';
-import ServicesSection from './sections/ServicesSection';
-import AboutSection from './sections/AboutSection';
-import GallerySection from './sections/GallerySection';
-import BlogSection from './sections/BlogSection';
-import FaqSection from './sections/FaqSection';
-import ContactSection from './sections/ContactSection';
+import './assets/styles/global.css';
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
+import HeroSection from './components/sections/HeroSection';
+import ServicesSection from './components/sections/ServicesSection';
+import AboutSection from './components/sections/AboutSection';
+import GallerySection from './components/sections/GallerySection';
+import BlogSection from './components/sections/BlogSection';
+import FaqSection from './components/sections/FaqSection';
+import ContactSection from './components/sections/ContactSection';
 
 function App() {
   return (
